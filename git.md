@@ -40,6 +40,11 @@ $ git reflog  //确定要回退的版本号
 
 //跟踪修改
 
+$ git checkout -- readme.txt  //丢弃工作区的修改
+$ git reset HEAD readme.txt //把暂存区的修改撤销掉（unstage），重新放回工作区
+
+
+
 
 ```
 
