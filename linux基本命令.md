@@ -11,3 +11,4 @@ chmod：修改文件权限
 >[Linux常用命令：chmod修改文件权限 777和754](https://blog.csdn.net/pythonw/article/details/80263428)
 dmesg：显示开机信息
 insmod：加载驱动模块
+rmmod：卸载驱动模块
