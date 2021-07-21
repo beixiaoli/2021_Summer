@@ -129,4 +129,8 @@ $ git remote rm origin
 删除一个本地标签：`git tag -d <tagname>`  
 删除一个远程标签：`git push origin :refs/tags/<tagname>`  
 
+### 搭建Git服务器
+[搭建Git服务器](https://www.liaoxuefeng.com/wiki/896043488029600/899998870925664)
 
+### Git图像界面工具：SourceTree
+[SourceTree](https://www.liaoxuefeng.com/wiki/896043488029600/1317161920364578#0)
