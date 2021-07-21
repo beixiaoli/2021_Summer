@@ -105,4 +105,12 @@ $ git remote rm origin
 13. feature分支：添加新功能  
 强行删除：`git branch -D <name>`  
 
-14. 多人协作  
+14. 多人协作工作模式：  
+查看远程库信息：`git remote -v`
+首先，可以试图用`git push origin <branch-name>`推送自己的修改；  
+如果推送失败，则因为远程分支比你的本地更新，需要先用`git pull`试图合并；  
+如果合并有冲突，则解决冲突，并在本地提交；  
+没有冲突或者解决掉冲突后，再用`git push origin <branch-name>`推送就能成功！  
+  如果`git pull`提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream-to <branch-name> origin/<branch-name>`。  
+  
+15. rebase：把本地未push的分叉提交历史整理成直线
