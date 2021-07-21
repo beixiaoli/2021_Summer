@@ -114,3 +114,18 @@ $ git remote rm origin
   如果`git pull`提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream-to <branch-name> origin/<branch-name>`。  
   
 15. rebase：把本地未push的分叉提交历史整理成直线
+
+### 标签管理：tag就是一个有意义的名字，与commit号绑定在一起
+
+16. 创建标签  
+新建标签：`git tag <tagname> commit id`  
+指定标签信息：`git tag -a <tagname> -m "blablabla..."`  
+查看所有标签：`git tag`  
+
+17. 操作标签  
+推送一个本地标签：`git push origin <tagname>`   
+推送全部未推送过的本地标签：`git push origin --tags`   
+删除一个本地标签：`git tag -d <tagname>`  
+删除一个远程标签：`git push origin :refs/tags/<tagname>`  
+
+
