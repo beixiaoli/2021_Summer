@@ -73,7 +73,8 @@ $ git reset HEAD readme.txt //把暂存区的修改撤销掉（unstage），重�
 推送master分支的所有内容：`git push -u origin master`  
 每次本地提交后，推送最新修改：`git push origin master`  
 删除远程库（解除本地和远程的绑定关系）：  
-```$ git remote -v
+```
+$ git remote -v
 $ git remote rm origin
 ```
 10. 从远程库克隆 
