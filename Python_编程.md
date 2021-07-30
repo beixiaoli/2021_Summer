@@ -170,3 +170,10 @@ What is your favorite color?  It is blue.
 
 模块是一个包含所有你定义的函数和变量的文件，其后缀名是.py。  
 
+1. import sys 引入 python 标准库中的 sys.py 模块；这是引入某一模块的方法。  
+2. sys.argv 是一个包含命令行参数的列表。   
+3. sys.path 包含了一个 Python 解释器自动查找所需模块的路径的列表。  
+
+包是一种管理 Python 模块命名空间的形式，采用"点模块名称"。  
+
+### 输入输出
