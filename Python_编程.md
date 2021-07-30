@@ -166,7 +166,7 @@ What is your favorite color?  It is blue.
 反向遍历：`reversed`  
 顺序遍历：`sorted`  
 
-## 模块
+### 模块
 
 模块是一个包含所有你定义的函数和变量的文件，其后缀名是.py。  
 
@@ -177,3 +177,19 @@ What is your favorite color?  It is blue.
 包是一种管理 Python 模块命名空间的形式，采用"点模块名称"。  
 
 ### 输入输出
+
+①表达式语句  
+②`print()`  
+③`write()`  
+④`str.format()`  
+⑤转成字符串：`repr()` `str()`  
+
+### 文件
+`open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)`  
+
+### 错误和异常
+
+1. 异常捕捉：  
+![异常捕捉](https://www.runoob.com/wp-content/uploads/2019/07/try_except_else_finally.png)  
+2. 抛出异常：  
+![触发异常](https://www.runoob.com/wp-content/uploads/2019/07/raise.png)  
